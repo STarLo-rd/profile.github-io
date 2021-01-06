@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> StarLord</title>
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <meta name="description" content="Starlord, the Man  who knew coding">
+  <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/grid.css">
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+  <link rel="manifest" href="resources/favicons/site.webmanifest">
+  <link rel="shortcut icon" href="resources/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+  <script>
+  function change() {
+    var name= prompt("enter your name to display  in the screen ");
+    if (name.length !=0){
+      document.getElementById('change').innerHTML= "HELLO" +" "+ name + ".";
+    }
+  }
+  </script>
+
+
+
+
+
+</head>
+<body>
+  <header>
+    <nav>
+        <h4 onclick="change()" class=space id=change>HELLO, WORLD.</h4>
+        <h1>I'm Starlord.</h1>
+        <h5>| &nbsp; &nbsp;BRAINY IN LINUX  &nbsp; &nbsp;| &nbsp;&nbsp; GOOD  CODER &nbsp; &nbsp;|
+        <h5 class="net">|&nbsp;&nbsp; A SYSYEM AND NETWORK ARCHITECT &nbsp;|&nbsp;&nbsp;  |&nbsp;GENEROUS WEB DESIGNER &nbsp;|</h5>
+
+        <a class="btn" href="#my-self"> MORE ABOUT ME</a>
+    </nav>
+  </header>
+      <div class="row">
+        <div class="col span-1-of-2">
+          <img src="resources/img/about-us.png" onmouseover="this.src='resources/img/cs7.png'"
+          onmouseout="this.src='resources/img/cs6.png'"
+          onclick="this.src='resources/img/cs8.png'" alt="common img "class="moc">
+        </div>
+        <div class="col span-1-of-2">
+            <section class="myself" id=my-self>
+              <div class="heading">
+                <h3> LET'S </h3>
+                <h3>INTRODUCE ABOUT</h3>
+                <h3> MYSELF </h3>
+            </div>
+            <div  class="para">
+              <p> I am a passionate <span>CODER</span> and  yet to complete the  Bachelor Of Computer Application</p>
+              <p> Certified in linux | programming | web designning | security | hacking | network |
+              data science</p><br>
+              <a class=" btn-para btn" href="certificates/sample.html" target="_blank"> Certificates </a>
+            </div>
+            </div>
+          </div>
+    </section>
+  </section>
+</section>
+
+
+  <footer>
+    <div class="footer-content">
+      <h3> STARLORD </h3>
+      <p>My Ideal Is To Built A Company From Scratch<p>
+        <ul class="social-links">
+             <li><a href="https://www.facebook.com" target="_blank"><ion-icon name="logo-facebook" class="social-facebook"></ion-icon></a></li>
+             <li><a href="https://www.twitter.com" target="_blank"><ion-icon name="logo-twitter" class="social-twitter"></ion-icon></a></li>
+             <li><a href="https://www.instagram.com" target="_blank"><ion-icon name="logo-instagram" class="social-instagram"></ion-icon></a></li>
+             <li><a href="https://www.linkedin.com" target="_blank"><ion-icon name="logo-linkedin" class="social-linkedin"></ion-icon></a></li>
+            <li><a href="https://www.google.com" target="_blank"><ion-icon name="logo-google" class="social-google"></ion-icon></a></li>
+            <li><a href="https://github.com/STarLo-rd" target="_blank"><ion-icon name="logo-github" class="social-git" ></ion-icon></a></li>
+         </ul>
+      </div>
+  </footer>
+  </body>
+</html>
